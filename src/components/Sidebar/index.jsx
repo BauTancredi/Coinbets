@@ -1,7 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import "./styles.css";
 
 export default function() {
+  const listOfElements = ["Dashboard", "Exchange", "Transactions", "Settings"];
+
+  useEffect(() => {
+    document.querySelector("nav ul li").classList.add("selected");
+  });
+
   function toggleTab(event) {
     document.querySelector(".selected").classList.remove("selected");
     const target = event.target;
@@ -21,22 +27,14 @@ export default function() {
         <h1>Coinbets</h1>
       </div>
       <ul>
-        <li className="selected" onClick={toggleTab}>
-          <img src="../../images/dashboard.svg" alt="" />
-          <p>Dashboard</p>
-        </li>
-        <li onClick={toggleTab}>
-          <img src="../../images/refresh.svg" alt="" />
-          <p>Exchange</p>
-        </li>
-        <li onClick={toggleTab}>
-          <img src="../../images/transaction.svg" alt="" />
-          <p>Transactions</p>
-        </li>
-        <li onClick={toggleTab}>
-          <img src="../../images/settings.svg" alt="" />
-          <p>Settings</p>
-        </li>
+        {listOfElements.map((element, index) => {
+          return (
+            <li key={index} onClick={toggleTab}>
+              <img src={`../../images/${element.toLowerCase()}.svg`} alt="" />
+              <p>{element}</p>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
