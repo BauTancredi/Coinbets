@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./styles.css";
 
-export default function() {
+export default function Header() {
   const listOfVehicles = ["Crypto", "Currency", "Stocks"];
 
   useEffect(() => {

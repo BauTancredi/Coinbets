@@ -1,0 +1,49 @@
+.card {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.27);
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.27);
+  color: white;
+  margin: 20px 10px 0 10px;
+}
+
+.card1 {
+  background-image: linear-gradient(to right, #46e3d4, #149fd4);
+}
+.card2 {
+  background-image: linear-gradient(to right, #9970f7, #fe5d9f);
+}
+.card3 {
+  background-image: linear-gradient(to right, #fbc88a, #f4596b);
+}
+.card4 {
+  background-image: linear-gradient(to right, #7147ff, #a6cbfe);
+}
+
+.card h3 {
+  font-size: 1.7rem;
+}
+
+.card-title {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.card-price {
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+.card p {
+  color: white;
+  margin: 0;
+}
+
+.card img {
+  filter: invert(100%);
+  transform: scale(1.7);
+}

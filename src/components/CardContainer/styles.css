@@ -1,0 +1,21 @@
+.container {
+  width: 85%;
+  height: 300px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 150px;
+}
+
+.container ul {
+  display: flex;
+  margin-top: 0;
+  margin-left: 50px;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 64px auto;
+}
