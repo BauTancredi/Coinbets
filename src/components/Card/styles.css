@@ -23,6 +23,18 @@
 .card4 {
   background-image: linear-gradient(to right, #7147ff, #a6cbfe);
 }
+.card4 {
+  background-image: linear-gradient(to right, #09791d, #00fff6);
+}
+.card4 {
+  background-image: linear-gradient(to right, #833ab4, #fd1d1d);
+}
+.card4 {
+  background-image: linear-gradient(to right, #24fd1d, #c6fc45);
+}
+.card4 {
+  background-image: linear-gradient(to right, #fd1d1d, #fc45b3);
+}
 
 .card h3 {
   font-size: 1.7rem;

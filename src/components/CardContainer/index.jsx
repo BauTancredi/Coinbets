@@ -21,7 +21,6 @@ export default function CardContainer() {
           );
         })}
       </ul>
-      <hr />
     </div>
   );
 }

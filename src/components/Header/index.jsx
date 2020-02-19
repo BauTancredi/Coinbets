@@ -5,7 +5,7 @@ export default function Header() {
   const listOfVehicles = ["Crypto", "Currency", "Stocks"];
 
   useEffect(() => {
-    document.querySelector("li").classList.add("active");
+    document.querySelector("header ul li").classList.add("active");
   });
 
   function toggleActive(event) {

@@ -1,15 +1,13 @@
 header {
-  width: 85%;
   height: 150px;
-  margin: auto;
-  position: absolute;
-  right: 0;
+
   border-bottom: 1px solid lightgray;
   display: flex;
 }
 
 .overview {
-  padding-left: 5%;
+  width: 200px;
+  padding-left: 2%;
 }
 .overview p {
   margin: 70px 0 0 0;
@@ -18,7 +16,7 @@ header {
 
 header ul {
   display: flex;
-  padding-left: 60px;
+  padding-left: 80px;
 }
 header ul li {
   margin-bottom: 0;
