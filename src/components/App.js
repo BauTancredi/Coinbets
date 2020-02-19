@@ -4,6 +4,7 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 import CardContainer from "./CardContainer";
 import ButtonRefresh from "./ButtonRefresh";
+import StockContainer from "./StockContainer";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Sidebar />
       <div id="page-warp">
         <Header />
-        <CardContainer />
+        {/* <StockContainer /> */}
         <CardContainer />
         <ButtonRefresh />
       </div>

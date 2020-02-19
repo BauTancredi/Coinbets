@@ -30,6 +30,38 @@ const cards = [
     price: "85.50",
     info: "Currency info",
     img: "../../images/stellar.svg"
+  },
+  {
+    id: 4,
+    card: "card5",
+    crypto: "XLM/USD",
+    price: "85.50",
+    info: "Currency info",
+    img: "../../images/stellar.svg"
+  },
+  {
+    id: 5,
+    card: "card6",
+    crypto: "XLM/USD",
+    price: "85.50",
+    info: "Currency info",
+    img: "../../images/stellar.svg"
+  },
+  {
+    id: 6,
+    card: "card7",
+    crypto: "XLM/USD",
+    price: "85.50",
+    info: "Currency info",
+    img: "../../images/stellar.svg"
+  },
+  {
+    id: 7,
+    card: "card8",
+    crypto: "XLM/USD",
+    price: "85.50",
+    info: "Currency info",
+    img: "../../images/stellar.svg"
   }
 ];
 

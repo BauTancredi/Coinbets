@@ -1,5 +1,7 @@
 .container {
-  display: flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container ul {
