@@ -1,17 +1,20 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { NavLink } from "react-router-dom";
+
 import "./styles.css";
 
 export default function Header() {
   const listOfVehicles = ["Crypto", "Currency", "Stocks"];
 
-  useEffect(() => {
-    document.querySelector("header ul li").classList.add("active");
-  });
+  // useEffect(() => {
+  //   console.log();
+  //   document.querySelector("header ul li").classList.add("active");
+  // });
 
-  function toggleActive(event) {
-    document.querySelector(".active").classList.remove("active");
-    event.target.classList.add("active");
-  }
+  // function toggleActive(event) {
+  //   document.querySelector(".active").classList.remove("active");
+  //   event.target.classList.add("active");
+  // }
 
   return (
     <header>
@@ -22,9 +25,14 @@ export default function Header() {
       <ul>
         {listOfVehicles.map((item, index) => {
           return (
-            <li key={index} onClick={toggleActive}>
-              {item}
-            </li>
+            <NavLink
+              to={`/${item.toLowerCase()}`}
+              className="link"
+              activeClassName="active"
+              style={{ color: "white" }}
+            >
+              <li key={index}>{item}</li>
+            </NavLink>
           );
         })}
       </ul>

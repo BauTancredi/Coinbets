@@ -1,0 +1,15 @@
+.maintenance {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.maintenance img {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.maintenance h5 {
+  font-size: 1.8rem;
+}

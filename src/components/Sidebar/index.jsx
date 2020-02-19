@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+
 import "./styles.css";
 
 export default function Sidebar() {
@@ -22,10 +24,12 @@ export default function Sidebar() {
   }
   return (
     <nav>
-      <div className="title">
-        <img src="../../images/logo.svg" alt="" />
-        <h1>Coinbets</h1>
-      </div>
+      <Link to="/" className="link">
+        <div className="title">
+          <img src="../../images/logo.svg" alt="" />
+          <h1>Coinbets</h1>
+        </div>
+      </Link>
       <ul>
         {listOfElements.map((element, index) => {
           return (

@@ -4,7 +4,6 @@
 }
 
 button {
-  margin-top: 40px;
   width: 200px;
   height: 40px;
   background-color: #754dff;
@@ -15,6 +14,8 @@ button {
   color: white;
   border: none;
   outline: none;
+  position: absolute;
+  bottom: 40px;
 }
 
 button:focus {
