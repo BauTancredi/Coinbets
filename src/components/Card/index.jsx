@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./styles.css";
 
 export default function Card(props) {
-  useEffect(() => {});
   return (
     <div className={`card ${props.card}`}>
       <div className="card--left">

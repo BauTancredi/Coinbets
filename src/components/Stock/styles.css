@@ -20,28 +20,3 @@
 .stock p {
   color: white;
 }
-
-.card1 {
-  background-image: linear-gradient(to right, #46e3d4, #149fd4);
-}
-.card2 {
-  background-image: linear-gradient(to right, #9970f7, #fe5d9f);
-}
-.card3 {
-  background-image: linear-gradient(to right, #fbc88a, #f4596b);
-}
-.card4 {
-  background-image: linear-gradient(to right, #7147ff, #a6cbfe);
-}
-.card4 {
-  background-image: linear-gradient(to right, #09791d, #00fff6);
-}
-.card4 {
-  background-image: linear-gradient(to right, #833ab4, #fd1d1d);
-}
-.card4 {
-  background-image: linear-gradient(to right, #24fd1d, #c6fc45);
-}
-.card4 {
-  background-image: linear-gradient(to right, #fd1d1d, #fc45b3);
-}

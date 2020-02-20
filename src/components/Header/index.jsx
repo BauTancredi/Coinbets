@@ -6,16 +6,6 @@ import "./styles.css";
 export default function Header() {
   const listOfVehicles = ["Crypto", "Currency", "Stocks"];
 
-  // useEffect(() => {
-  //   console.log();
-  //   document.querySelector("header ul li").classList.add("active");
-  // });
-
-  // function toggleActive(event) {
-  //   document.querySelector(".active").classList.remove("active");
-  //   event.target.classList.add("active");
-  // }
-
   return (
     <header>
       <div className="overview">
@@ -30,6 +20,7 @@ export default function Header() {
               className="link"
               activeClassName="active"
               style={{ color: "white" }}
+              key={index}
             >
               <li key={index}>{item}</li>
             </NavLink>
