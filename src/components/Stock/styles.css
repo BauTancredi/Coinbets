@@ -1,22 +1,54 @@
 .stock {
   width: 100px;
   height: 100px;
-  background-color: red;
   border-radius: 10px;
-  background-image: linear-gradient(#fbc88a, #f4596b);
+  background-color: #754dff;
   padding: 5px;
   color: white;
   flex-direction: column;
   text-align: center;
   margin: 10px;
+  position: relative;
+  -webkit-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.27);
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.27);
 }
 
 .stock h6 {
-  font-size: 22px;
+  font-size: 13px;
   margin: 0;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .stock p {
   color: white;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  left: 2px;
 }
+
+/* .stock1 {
+  background-image: linear-gradient(#46e3d4, #149fd4);
+}
+.stock2 {
+  background-image: linear-gradient(#9970f7, #fe5d9f);
+}
+.stock3 {
+  background-image: linear-gradient(#fbc88a, #f4596b);
+}
+.stock4 {
+  background-image: linear-gradient(#7147ff, #a6cbfe);
+}
+.stock5 {
+  background-image: linear-gradient(#09791d, #00fff6);
+}
+.stock6 {
+  background-image: linear-gradient(#833ab4, #fd1d1d);
+}
+.stock7 {
+  background-image: linear-gradient(#24fd1d, #c6fc45);
+}
+.stock8 {
+  background-image: linear-gradient(#fd1d1d, #fc45b3);
+} */
