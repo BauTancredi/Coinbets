@@ -12,6 +12,7 @@ export default function CardContainer() {
 
   useEffect(() => {
     callApi();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   async function callApi() {

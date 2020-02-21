@@ -8,38 +8,10 @@ import Loader from "../Loader";
 export default function StockContainer() {
   var [stocks, setStocks] = useState([]);
   var [loading, setLoading] = useState(false);
-  var dataSymbol = [
-    "BRK.A",
-    "SNAP",
-    "TWTR",
-    "BABA",
-    "JPM",
-    "JNJ",
-    "V",
-    "WMT",
-    "XOM",
-    "BAC",
-    "T",
-    "DIS",
-    "KO",
-    "TM",
-    "PFE",
-    "BA",
-    "HSBC",
-    "MCD",
-    "NKE",
-    "PM",
-    "ACN",
-    "IBM",
-    "SNE",
-    "UL",
-    "CVX",
-    "VZ",
-    "C"
-  ];
 
   useEffect(() => {
     callApi();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   async function callApi() {
