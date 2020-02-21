@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Coinbets/static/css/main.b9a435be.chunk.css",
+    "main.js": "/Coinbets/static/js/main.0b7ccb1f.chunk.js",
+    "main.js.map": "/Coinbets/static/js/main.0b7ccb1f.chunk.js.map",
+    "runtime-main.js": "/Coinbets/static/js/runtime-main.038de1e9.js",
+    "runtime-main.js.map": "/Coinbets/static/js/runtime-main.038de1e9.js.map",
+    "static/js/2.166cf776.chunk.js": "/Coinbets/static/js/2.166cf776.chunk.js",
+    "static/js/2.166cf776.chunk.js.map": "/Coinbets/static/js/2.166cf776.chunk.js.map",
+    "index.html": "/Coinbets/index.html",
+    "precache-manifest.e203f9d56059e5ae781b5388353cdd67.js": "/Coinbets/precache-manifest.e203f9d56059e5ae781b5388353cdd67.js",
+    "service-worker.js": "/Coinbets/service-worker.js",
+    "static/css/main.b9a435be.chunk.css.map": "/Coinbets/static/css/main.b9a435be.chunk.css.map",
+    "static/js/2.166cf776.chunk.js.LICENSE.txt": "/Coinbets/static/js/2.166cf776.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.038de1e9.js",
+    "static/js/2.166cf776.chunk.js",
+    "static/css/main.b9a435be.chunk.css",
+    "static/js/main.0b7ccb1f.chunk.js"
+  ]
+}
