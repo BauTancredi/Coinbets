@@ -26,7 +26,7 @@ It's still on development so it has some [issues](#issues), which most of them a
 <h3>Getting Started</h3>
 
 ```
-git clone sadsaasd
+git clone https://github.com/BauTancredi/Coinbets.git
 cd crypto-currency
 npm install
 npm start
