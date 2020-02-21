@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
   <h1>Coinbets</h1>
 
   <img src="/public/images/Coinbets.PNG">
@@ -35,6 +39,7 @@ npm start
 Issues are not listed in a particular order.
 
 - Fetch on StockContainer has to be improved.
+- Responsive Design
 - Some cyrpto's svg do not match the real symbol.
 - Sidebar has no functionality.
 - Currency Component is under maintenance.
