@@ -1,6 +1,6 @@
   <h1>Coinbets</h1>
 
-  <img src="/public/images/Coinbets.png">
+  <img src="/public/images/Coinbets.PNG">
 
 <h2>Intro</h2>
 
