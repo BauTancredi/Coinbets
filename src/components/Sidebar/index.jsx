@@ -34,7 +34,12 @@ export default function Sidebar() {
         {listOfElements.map((element, index) => {
           return (
             <li key={index} onClick={toggleTab}>
-              <img src={`../../images/${element.toLowerCase()}.svg`} alt="" />
+              <img
+                src={`${
+                  process.env.PUBLIC_URL
+                }/images/${element.toLowerCase()}.svg`}
+                alt=""
+              />
               <p>{element}</p>
             </li>
           );
