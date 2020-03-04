@@ -26,7 +26,7 @@ export default function Sidebar() {
     <nav>
       <Link to="/" className="link">
         <div className="title">
-          <img src="../../images/logo.svg" alt="" />
+          <img src="/Coinbets/images/logo.svg" alt="" />
           <h1>Coinbets</h1>
         </div>
       </Link>

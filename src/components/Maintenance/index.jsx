@@ -5,7 +5,7 @@ export default function Maintenance() {
   return (
     <div className="maintenance">
       <div>
-        <img src="../../images/maintenance.svg" alt="" />
+        <img src="/Coinbets/images/maintenance.svg" alt="" />
         <h5>This site is under maintenance</h5>
       </div>
     </div>

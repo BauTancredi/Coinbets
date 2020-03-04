@@ -50,7 +50,7 @@ export default function CardContainer() {
                 crypto={`${card.symbol}/USD`}
                 price={parseFloat(card.rateUsd).toFixed(4)}
                 info={card.id}
-                img={`../../images/currency/${card.id}.svg`}
+                img={`/Coinbets/images/currency/${card.id}.svg`}
               />
             );
           })}
