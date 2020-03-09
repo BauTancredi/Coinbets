@@ -1,7 +1,3 @@
----
-permalink: /index.html
----
-
   <h1>Coinbets</h1>
 
   <img src="/public/images/Coinbets.PNG">
