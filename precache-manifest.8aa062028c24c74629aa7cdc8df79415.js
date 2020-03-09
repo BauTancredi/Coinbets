@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0486627bed59819904f21492b29c745f",
+    "revision": "25cd574d106dbc2d4062bbcef4d102a0",
     "url": "/Coinbets/index.html"
   },
   {
-    "revision": "02ad59a488d19f66c003",
+    "revision": "0fab6d067226d6dc49c9",
     "url": "/Coinbets/static/css/main.b9a435be.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Coinbets/static/js/2.166cf776.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02ad59a488d19f66c003",
-    "url": "/Coinbets/static/js/main.571e68f9.chunk.js"
+    "revision": "0fab6d067226d6dc49c9",
+    "url": "/Coinbets/static/js/main.780c2494.chunk.js"
   },
   {
     "revision": "e28290861633abd7f8e1",
